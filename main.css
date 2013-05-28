@@ -46,6 +46,6 @@ ul.links li {
   padding-left: .75em;
 }
 
-ul.links li.first {
+ul.links li:first-child {
   padding-left: .35em;
 }
