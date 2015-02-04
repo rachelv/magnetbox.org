@@ -8,15 +8,17 @@ body {
 }
 
 #resume {
-	margin: 25px;
+	margin: 25px auto;
 	padding: 5px 15px 15px 15px;
 	border: 3px double #000000;
 	background-color: #FFFFFF;
 	font-size: 1em;
+    max-width: 900px;
 }
 
 p {
 	font-size: 1.4em;
+    line-height: 1.3em;
 	margin-left: 20px;
 }
 
