@@ -1,43 +1,34 @@
 body {
-	background-color: #F3F3F3;
+	background-color: #DDD;
 	font-family: sans-serif;
-	color: #000000;
+	color: #000;
 	font-size: 62.5%;
 	margin: 0;
 	padding: 0;
 }
-
 #resume {
 	margin: 25px auto;
 	padding: 5px 15px 15px 15px;
-	border: 3px double #000000;
-	background-color: #FFFFFF;
+	border: 3px double #000;
+	background-color: #FFF;
 	font-size: 1em;
     max-width: 900px;
 }
-
 p {
 	font-size: 1.4em;
     line-height: 1.3em;
 	margin-left: 20px;
 }
-
-p.contact {
-	line-height: 1.5em;
+p.contact { line-height: 1.5em; }
+.date, .location {
+    font-weight: 100;
+	font-size: .9em;
+	color: #666;
 }
-
-.date {
-	font-weight: 100;
-	font-size: 0.9em;
-	color: #666666;
-}
-
-h1, h2, h3, h4 {
-	font-family: tahoma, verdana, sans-serif;
-}
-h1 {
-	font-size: 2em;
-}
+.date { margin-left: .25em; }
+.location { margin-left: .75em; }
+h1, h2, h3, h4 { font-family: tahoma, verdana, sans-serif; }
+h1 { font-size: 2em; }
 h2 {
 	border-bottom: 1px solid #000000;
 	font-size: 1.6em;
@@ -53,17 +44,15 @@ h4 {
 	margin: 6px 0 0 8px;
 	padding: 0;
 }
-
 a {
-	color: #003399;
-  text-decoration: underline;
+    color: #039;
+    text-decoration: underline;
 }
 a#more_jobs_trigger {
   padding: 0;
   margin: .25em 0 0 1em;
   font-size: 1.2em;
 }
-
 ul {
 	font-size: 1.4em;
 	list-style: square;
@@ -72,17 +61,14 @@ li {
 	padding: 1px 0;
 	line-height: 1.4em;
 }
-
 .mainlist {
 	padding: 0;
 	margin: 5px 0 0 25px;
 }
-
 .joblist {
 	padding: 0;
 	margin: 5px 0 15px 30px;
 }
-
 .sublist {
 	font-size: 1em;
 	margin: 0 0 0 15px;
@@ -92,7 +78,4 @@ li {
 	padding: 1px 0;
 	margin: 0;
 }
-
-#more_jobs {
-  display: none;
-}
+#more_jobs { display: none; }
