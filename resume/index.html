@@ -8,9 +8,9 @@
     <link rel="stylesheet" type="text/css" media="print" href="print.css" />
     <script type="text/javascript">
     function show_jobs() {
-      document.getElementById('more_jobs_trigger').style.visibility = 'hidden';
-      document.getElementById('more_jobs').style.visibility = 'visible';
-      document.getElementById('more_jobs').style.display = 'block';
+      document.getElementById('more_trigger').style.visibility = 'hidden';
+      document.getElementById('more').style.visibility = 'visible';
+      document.getElementById('more').style.display = 'block';
     }
     </script>
 </head>
@@ -21,32 +21,11 @@
 
 <h1>Rachel Vecchitto</h1>
 
-<p class="contact">
-<script type="text/javascript" language="javascript">
-<!--
-// eMail Obfuscator Script 2.1 by Tim Williams - freeware
-{
-	coded = "3kmrov@wkqxo7lyc.y3q"
-	cipher = "aZbYcXdWeVfUgThSiRjQkPlOmNnMoLpKqJrIsHtGuFvEwDxCyBzA1234567890"
-	shift=coded.length
-	link=""
-	for (i=0; i<coded.length; i++){
-		if (cipher.indexOf(coded.charAt(i))==-1){
-			ltr=coded.charAt(i)
-			link+=(ltr)
-		}
-		else {     
-			ltr = (cipher.indexOf(coded.charAt(i))-shift+cipher.length) % cipher.length
-			link+=(cipher.charAt(ltr))
-		}				
-	}		
-	document.write("<a href='mailto:"+link+"'>"+link+"</a>")
-}
-//-->
-</script><br/>
-<a href="http://www.magnetbox.org">magnetbox.org</a> &middot; <a href="http://www.magnetbox.org/resume">magnetbox.org/resume</a><br/>
-Boulder, CO &middot; 518-573-6498
-</p>
+<div class="contact">
+    <p>rachel@magnetbox.org</p>
+    <p><a href="http://www.magnetbox.org">magnetbox.org</a> &middot; <a href="http://www.magnetbox.org/resume">magnetbox.org/resume</a></p>
+    <p>Boulder, CO &middot; 518-573-6498</p>
+</div>
 
 
 <h2>Summary</h2>
@@ -55,22 +34,22 @@ Boulder, CO &middot; 518-573-6498
 <h2>Experience</h2>
 
 <h3>Twitter <span class="location">Boulder, CO</span> <span class="date">(February 2014 - Present) (<a href="http://www.gnip.com">Gnip</a> acquired by Twitter in May 2014)</span></h3>
-<h4>Senior Software Engineer</h4>
+<h4>Senior Software Engineer <span class="languages">Ruby, Java, Scala</span></h4>
 <ul class="joblist">
+    <li>Led a team building a system to send billing &amp; compliance data from new services in Twitter's data center to legacy services in Gnip's data center. Implemtented a library for consitent message creation, a server to POST messages from Twitter to Gnip, and a receiving endpoint to deserialize and enqueue messages for Gnip systems.</li>
     <li>Developed an API used by partners to batch submit tweet resyndication and compliance events, allowing Twitter to bill appropriately for network impressions and honor user privacy for hundreds of thousands of tweets.</li>
-    <li>Led a team building a pipeline to send billing &amp; compliance data from new applications in Twitter's data center to legacy systems in Gnip's data center. Implemtented a library for consitent message creation, a server to POST messages from Twitter to Gnip, and a receiving endpoint to deserialize and enqueue messages for existing Gnip systems.</li>    <li>Created associated graphs, alerts and monitoring for load testing and production support.</li>
 </ul>
 
-<h3>SlopeSquad.com <span class="location">Boulder, CO</span> <span class="date">(June 2012 - Present)</span></h3>
-<h4>Co-founder</h4>
+<h3>Slope Squad <span class="location">Boulder, CO</span> <span class="date">(June 2012 - Present)</span></h3>
+<h4>Co-Founder <span class="languages">Ruby on Rails</span></h4>
 <ul class="joblist">
-    <li>Co-founded &amp; built <a href="http://www.slopesquad.com">SlopeSquad.com</a> (<a href="http://m.slopesquad.com/">mobile</a>), a site that makes it easy to track your days on the snow, make plans with friends, and get news and updates from the places you ski.</li>
+    <li>Built <a href="http://www.slopesquad.com">SlopeSquad.com</a> (<a href="http://m.slopesquad.com/">mobile</a>), a site that makes it easy to track your days on the snow and make plans with friends.</li>
     <li>Talked to several Colorado ski resorts to brainstorm features, demo existing functionality and negotiate partnerships.</li>
-    <li>Developed a business plan and feature roadmap aimed at making Slope Squad the only app you'd need to check conditions, decide where to ski, plan trips, coordinate with friends, communicate with mountains, and log your stats.</li>
+    <li>Developed a feature roadmap aimed at making Slope Squad the only app skiers would need to check conditions, decide where to ski, plan trips, coordinate with friends, and log stats, and the only app resorts would need to track social impressions, view skier visit stats, communicate with guests, and offer deals.</li>
 </ul>
 
 <h3>Etsy <span class="location">New York, NY, then remote from Boulder, CO</span><span class="date">(August 2009 - January 2014)</span></h3>
-<h4>Senior Software Engineer</h4>
+<h4>Senior Software Engineer <span class="languages">PHP</span></h4>
 <ul class="joblist">
     <li>Led the migration of about 800k shops from a monolothic Postgres database to MySQL shards, redesigning the schema, t'ing writes, and then t'ing reads to gradually transition to the new database with no downtime.</li>
     <li>As part of the original launch of Etsy's shipping services, designed and developed a service to allow uniform programmatic access to multiple shipping provider APIs (USPS, FedEx, etc).</li>
@@ -78,24 +57,23 @@ Boulder, CO &middot; 518-573-6498
     <li>Contributed to many critical site components, including checkout, the listing process, listing currency conversion, shop management tools, and mobile APIs.</li>
 </ul>
 
-<h3>Wee Web <span class="location">New York, NY</span> <span class="date">(June 2008 - July 2009)</span></h3>
-<h4>Lead Developer</h4>
+<h3 class="page">Wee Web <span class="location">New York, NY</span> <span class="date">(June 2008 - July 2009)</span></h3>
+<h4>Lead Developer <span class="languages">Ruby on Rails</span></h4>
 <ul class="joblist">
   <li>Lead developer for <a href="http://wee-web.com">Wee Web</a> (since merged with JustFamily), a website launched by two of the Meetup co-founders that allowed families to privately &amp; easily share photos, videos and stories about their children.</li>
-  <li>Designed and developed the site from the ground up with one other developer.</li>
-  <li>Implemented photo uploads to S3, hosted video uploads with <a href="https://www.pandastream.com/">Panda</a>, Facebook Connect, and front-end CSS and JavaScript.</li>
+  <li>Built the site from the gound up with one other developer, implementing photo uploads to S3, hosted video uploads with <a href="https://www.pandastream.com/">Panda</a>, Facebook integration, and front-end CSS and JavaScript.</li>
 </ul>
 
 <h3>New York Times Digital <span class="location">New York, NY</span> <span class="date">(January 2007 - June 2008)</span></h3>
-<h4>Search Platform Lead</h4>
+<h4>Search Platform Lead <span class="languages">PHP, Context (proprietary)</span></h4>
 <ul class="joblist">
-  <li>Served as the development lead for moving the article archive out from behind the TimesSelect paywall.</li>
+  <li>Acted as the development lead for moving the article archive out from behind the TimesSelect paywall.</li>
   <li>Led the migration of search on NYTimes.com to the Google CSE platform, creating a flexible, scalable, and uniform search experience across all sections of the site.</li>
   <li>Managed the development and maintenance of all search-related projects, including article categorization, <a href="http://topics.nytimes.com">topic pages</a> and general search enhancements.</li>
 </ul>
 
-<h3>Meetup.com <span class="location">New York, NY</span> <span class="date">(November 2004 - January 2007)</span></h3>
-<h4>Web Developer</h4>
+<h3>Meetup <span class="location">New York, NY</span> <span class="date">(November 2004 - January 2007)</span></h3>
+<h4>Web Developer <span class="languages">Java</span></h4>
 <ul class="joblist">
 	<li>Responsible for the development of several major features and components.</li>
 	<ul class="sublist">
@@ -109,8 +87,8 @@ Boulder, CO &middot; 518-573-6498
 	</ul>
 </ul>
 
-<a id="more_jobs_trigger" href="#more_jobs" onclick="show_jobs()">(more...)</a>
-<div id="more_jobs">
+<a id="more_trigger" href="#more" onclick="show_jobs()">(more...)</a>
+<div id="more">
 
 <h3>UBS Investment Bank <span class="location">Stamford, CT</span> <span class="date">(June 2003 - November 2004)</span></h3>
 <h4>Web Developer, Client Portal</h4>
@@ -125,7 +103,7 @@ Boulder, CO &middot; 518-573-6498
 </ul>
 
 <h3>GE Power Systems <span class="location">Troy, NY</span> <span class="date">(May 2002 - May 2003)</span></h3>
-<h4>Co-op, RPI e-Business Division</h4>
+<h4>Intern, RPI e-Business Division</h4>
 <ul class="joblist">
   <li>Designed and developed modular, scalable web applications using a proprietary model 2 framework.</li>
   <li>Was the primary point of contact with the client for a conference registration application, leading a team of approximately 5 developers from requirements gathering through design, development and release.</li>
@@ -137,7 +115,7 @@ Boulder, CO &middot; 518-573-6498
   <li>Designed and developed a text messaging interface using Java servlets for the company intranet, allowing over 300,000 IBM employees to send pages and text messages to coworkers over the web.</li>
 </ul>
 
-</div>  <!-- end more_jobs toggle -->
+</div>  <!-- end more toggle -->
 
 <h2>Education</h2>
 

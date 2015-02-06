@@ -1,12 +1,16 @@
 @import url( "web.css" );
 body {
-	background-color: #FFFFFF !important;
+	background-color: #FFF !important;
 }
 #resume {
 	margin: 0 !important;
 	padding: 1em 2em 3em 2em !important;
 	border: 0 !important;
 }
-#more_jobs_trigger {
+#more_trigger {
     display: none !important;
+}
+.page {
+    page-break-before: always;
+    padding-top: 2em !important;
 }

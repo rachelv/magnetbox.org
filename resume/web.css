@@ -17,38 +17,51 @@ body {
 p {
 	font-size: 1.4em;
     line-height: 1.3em;
-	margin-left: 20px;
+	margin-left: .75em;
 }
-p.contact { line-height: 1.5em; }
-.date, .location {
+.contact p {
+    margin: 0 0 0 .6em;
+    padding: 0 0 .3em 0;
+}
+.date, .location, .languages {
     font-weight: 100;
 	font-size: .9em;
 	color: #666;
 }
-.date { margin-left: .25em; }
-.location { margin-left: .75em; }
-h1, h2, h3, h4 { font-family: tahoma, verdana, sans-serif; }
-h1 { font-size: 2em; }
+.date {
+    margin-left: .25em;
+}
+.location {
+    margin-left: .75em;
+}
+.languages {
+    margin-left: .75em;
+}
+h1, h2, h3, h4 {
+    font-family: tahoma, verdana, sans-serif;
+}
+h1 {
+    font-size: 2em;
+}
 h2 {
-	border-bottom: 1px solid #000000;
+	border-bottom: 1px solid #000;
 	font-size: 1.6em;
 }
 h3 {
 	font-size: 1.5em;
-	margin: 0 0 0 5px;
+	margin: 0 0 0 .25em;
 	padding: 0;
 }
 h4 {
 	font-size: 1.4em;
 	font-weight: normal;
-	margin: 6px 0 0 8px;
+	margin: .4em 0 0 .9em;
 	padding: 0;
 }
 a {
     color: #039;
-    text-decoration: underline;
 }
-a#more_jobs_trigger {
+a#more_trigger {
   padding: 0;
   margin: .25em 0 0 1em;
   font-size: 1.2em;
@@ -78,4 +91,6 @@ li {
 	padding: 1px 0;
 	margin: 0;
 }
-#more_jobs { display: none; }
+#more {
+    display: none;
+}
