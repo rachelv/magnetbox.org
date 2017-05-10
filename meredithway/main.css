@@ -1,0 +1,7 @@
+img.photo {
+    max-width: 300px;
+    margin-bottom: 1.5rem;
+}
+img.vertical {
+    max-height: 300px;
+}
