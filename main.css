@@ -1,51 +1,15 @@
 body { 
     background-color: #FFF;
-    background-image: url('bg_mayflower.jpg');
-    background-position: 12% 10%;
-    font-size: 62.5%;
-    color: #222;
     font-family: sans-serif;
+    text-align: center;
+    padding-top: 4rem;
 }
 
-a { color: #222; }
-
-h1 {
-  padding-bottom: .2em;
-  font-size: 4.5em;
-  font-weight: 200;
+img {
+  width: 200px;
 }
 
-.content {
-  background-color: #FFF;
-  position: absolute;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  opacity: 0.7;
-  filter:alpha(opacity=70);
-  top: 40px;
-  left: 30px;
-  padding: 20px 30px 30px 30px;
-}
-  .content p {
-    padding: 0 0 .25em .2em;
-    font-size: 1.75em;
-  }
-
-  .content p.location {
-    color: #666;
-    padding-bottom: .75em;
-  }
-
-ul.links {
-  margin-top: 1.2em;
+.links a {
+  margin: 0 0.25rem;
 }
 
-ul.links li {
-  font-size: 1.2em;
-  display: inline;
-  padding-left: .7em;
-}
-
-ul.links li:first-child {
-  padding-left: .35em;
-}
