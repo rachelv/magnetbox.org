@@ -1,132 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Rachel Vecchitto - Resum&eacute;</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="web.css" />
-    <link rel="stylesheet" type="text/css" media="print" href="print.css" />
-    <script type="text/javascript">
-    function show_jobs() {
-      document.getElementById('more_trigger').style.visibility = 'hidden';
-      document.getElementById('more').style.visibility = 'visible';
-      document.getElementById('more').style.display = 'block';
-    }
-    </script>
+    <link rel="stylesheet" href="bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-<div id="resume">
-
-<h1>Rachel Vecchitto</h1>
-
-<div class="contact">
-    <p>rachel@magnetbox.org</p>
-    <p><a href="http://www.magnetbox.org">magnetbox.org</a> &middot; <a href="http://www.magnetbox.org/resume">magnetbox.org/resume</a></p>
-    <p>Boulder, CO &middot; 518-573-6498</p>
-</div>
-
-
-<h2>Summary</h2>
-<p>Software engineer with 10+ years experience building high traffic websites. Strong design and user experience sensibilities.</p>
-
-<h2>Experience</h2>
-
-<h3>Twitter <span class="location">Boulder, CO</span> <span class="date">(February 2014 - Present) (<a href="http://www.gnip.com">Gnip</a> acquired by Twitter in May 2014)</span></h3>
-<h4>Senior Software Engineer <span class="languages">Ruby, Java, Scala</span></h4>
-<ul class="joblist">
-    <li>Led a team building a system to send billing &amp; compliance data from new services in Twitter's data center to legacy services in Gnip's data center. Implemtented a library for consitent message creation, a server to POST messages from Twitter to Gnip, and a receiving endpoint to deserialize and enqueue messages for Gnip systems.</li>
-    <li>Designed and developed deploy tools used by all developers to package applications, manage versions, and deploy applications through staging to production.</li>
-    <li>Developed an API used by partners to batch submit tweet resyndication and compliance events, allowing Twitter to bill appropriately for network impressions and honor user privacy for hundreds of thousands of tweets.</li>
-</ul>
-
-<h3>Slope Squad <span class="location">Boulder, CO</span> <span class="date">(June 2012 - Present)</span></h3>
-<h4>Co-Founder <span class="languages">Ruby on Rails</span></h4>
-<ul class="joblist">
-    <li>Built <a href="http://www.slopesquad.com">SlopeSquad.com</a> (<a href="http://m.slopesquad.com/">mobile</a>), a site that makes it easy to track your days on the snow and make plans with friends.</li>
-    <li>Talked to several Colorado ski resorts to brainstorm features, demo existing functionality and negotiate partnerships.</li>
-    <li>Developed a feature roadmap aimed at making Slope Squad the only app skiers need to check conditions, decide where to ski, plan trips, coordinate with friends, and log stats, and the only app resorts need to track social impressions, view skier visits, communicate with guests, and offer deals.</li>
-</ul>
-
-<h3>Etsy <span class="location">New York, NY, then remote from Boulder, CO</span><span class="date">(August 2009 - January 2014)</span></h3>
-<h4>Senior Software Engineer <span class="languages">PHP</span></h4>
-<ul class="joblist">
-    <li>Led the migration of about 800k shops from a monolothic Postgres database to MySQL shards, redesigning the schema, t'ing writes, and then t'ing reads to gradually transition to the new database with no downtime.</li>
-    <li>As part of the original launch of Etsy's shipping services, designed and developed a service to allow uniform programmatic access to multiple shipping provider APIs (USPS, FedEx, etc).</li>
-    <li>Designed and developed a credit tier system to allow sellers to accrue only a given amount of outstanding fees, and move sellers between credit tiers based on billing history and payments.</li>
-    <li>Contributed to many critical site components, including checkout, the listing process, listing currency conversion, shop management tools, and mobile APIs.</li>
-</ul>
-
-<h3 class="page">Wee Web <span class="location">New York, NY</span> <span class="date">(June 2008 - July 2009)</span></h3>
-<h4>Lead Developer <span class="languages">Ruby on Rails</span></h4>
-<ul class="joblist">
-  <li>Lead developer for <a href="http://wee-web.com">Wee Web</a> (since merged with JustFamily), a website launched by two of the Meetup co-founders that allowed families to privately &amp; easily share photos, videos and stories about their children.</li>
-  <li>Built the site from the gound up with one other developer, implementing photo uploads to S3, hosted video uploads with <a href="https://www.pandastream.com/">Panda</a>, Facebook integration, and front-end CSS and JavaScript.</li>
-</ul>
-
-<h3>New York Times Digital <span class="location">New York, NY</span> <span class="date">(January 2007 - June 2008)</span></h3>
-<h4>Search Platform Lead <span class="languages">PHP, Context (proprietary)</span></h4>
-<ul class="joblist">
-  <li>Acted as the development lead for moving the article archive out from behind the TimesSelect paywall.</li>
-  <li>Led the migration of search on NYTimes.com to the Google CSE platform, creating a flexible, scalable, and uniform search experience across all sections of the site.</li>
-  <li>Managed the development and maintenance of all search-related projects, including article categorization, <a href="http://topics.nytimes.com">topic pages</a> and general search enhancements.</li>
-</ul>
-
-<h3>Meetup <span class="location">New York, NY</span> <span class="date">(November 2004 - January 2007)</span></h3>
-<h4>Web Developer <span class="languages">Java</span></h4>
-<ul class="joblist">
-	<li>Responsible for the development of several major features and components.</li>
-	<ul class="sublist">
-		<li>Redesigned the payment process to accomodate a change from "plus / pro" user accounts to a monthly subscription system.</li>
-		<li>Built a per-group wiki with change tracking, reversion capabilities, and multiple read/write permission levels.</li>
-	</ul>
-	<li>Guided the development of various features through initial concept, implementation and final release.</li>
-	<ul class="sublist">
-		<li>Designed and developed a tool to allow groups to easily post ads to Craigslist, leading to over 1,000 clicks to Meetup per day.</li>
-		<li>Repurposed Meetup's affiliate program to appeal to bloggers and other personal publishers, leading to over 20 new registrations per day.</li>
-	</ul>
-</ul>
-
-<a id="more_trigger" href="#more" onclick="show_jobs()">(more...)</a>
-<div id="more">
-
-<h3>UBS Investment Bank <span class="location">Stamford, CT</span> <span class="date">(June 2003 - November 2004)</span></h3>
-<h4>Web Developer, Client Portal</h4>
-<ul class="joblist">
-  <li>Participated in the complete redesign of a centralized web navigation management system, including requirements gathering, UI layout, schema design and object model design.</li>
-  <li>Responsible for enhancing and releasing an internal web-based project management application, working with users in several departments to coordinate requirements and release schedules.</li>
-</ul>
-<h4>Application Developer, Equities IT</h4>
-<ul class="joblist">
-  <li>Responsible for enhancing and maintaining the data retrieval component of a Java-based instrument pricing and risk calculation engine.</li>
-  <li>Designed and implemented a generic reporting engine used by risk managers on the trading floor that executed stored procedures, processed the output and used XSLT to present the output in several formats.</li>
-</ul>
-
-<h3>GE Power Systems <span class="location">Troy, NY</span> <span class="date">(May 2002 - May 2003)</span></h3>
-<h4>Intern, RPI e-Business Division</h4>
-<ul class="joblist">
-  <li>Designed and developed modular, scalable web applications using a proprietary model 2 framework.</li>
-  <li>Was the primary point of contact with the client for a conference registration application, leading a team of approximately 5 developers from requirements gathering through design, development and release.</li>
-</ul>
-
-<h3>IBM <span class="location">New York, NY</span> <span class="date">(Summer 2001)</span></h3>
-<h4>Summer Intern, Corporate Intranet Team</h4>
-<ul class="joblist">
-  <li>Designed and developed a text messaging interface using Java servlets for the company intranet, allowing over 300,000 IBM employees to send pages and text messages to coworkers over the web.</li>
-</ul>
-
-</div>  <!-- end more toggle -->
-
-<h2>Education</h2>
-
-<h3>Rensselaer Polytechnic Institute <span class="location">Troy, NY</span> <span class="date">(1999 - 2003)</h3>
-<ul class="mainlist">
-    <li>B.S. Computer Science, Magna Cum Laude</li>
-</ul>
-
-</div>
+    <div class="container">
+        <div class="row">
+            <p>hi</p>
+        </div>
+    </div>
 
 </body>
-
 </html>
