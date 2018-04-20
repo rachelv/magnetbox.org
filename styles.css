@@ -24,8 +24,5 @@ p.first {
 }
 
 .links a {
-    margin: 0 0.5rem;
-}
-.links a.first {
-    margin: 0 0.5rem 0 0;
+    margin: 0 0.3rem;
 }
