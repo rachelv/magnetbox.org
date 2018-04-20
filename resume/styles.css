@@ -19,6 +19,10 @@ a:hover {
     }
     .content-container {
         padding: 1rem;
+        border-top: 1px solid #212529;
+        border-bottom: 1px solid #212529;
+        border-left: none;
+        border-right: none;
     }
 }
 @media (min-width: 577px) {
@@ -27,13 +31,27 @@ a:hover {
     }
     .content-container {
         padding: 1rem 2rem;
+        border: 1px solid #212529;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        border-top: 1px solid #212529;
+        border-bottom: 1px solid #212529;
+        border-left: none;
+        border-right: none;
+    }
+}
+@media (min-width: 769px) {
+    .content-container {
+        border: 1px solid #212529;
     }
 }
 
 .content-container {
     margin: 2rem 0;
     background-color: #fff;
-    border: 1px solid #212529;
 }
 
 h2 {
