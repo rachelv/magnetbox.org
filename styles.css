@@ -1,0 +1,31 @@
+body { 
+    background-color: #FFF;
+    padding-top: 4rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-fluid {
+    max-width: 1000px;
+}
+
+@media (max-width: 576px) {
+    .content-col {
+        padding-left: 1.25rem;
+    }
+}
+@media (min-width: 577px) {
+    .content-col {
+        padding-left: 3rem;
+    }
+}
+
+p.first {
+    margin-top: 0.5rem;
+}
+
+.links a {
+    margin: 0 0.5rem;
+}
+.links a.first {
+    margin: 0 0.5rem 0 0;
+}
