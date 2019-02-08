@@ -1,10 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #eee;
-    background: -webkit-gradient(linear,  left top,  left bottom, 
-        color-stop(0%, rgba(85, 26, 139, .4)), 
-        color-stop(50%, rgba(230, 220, 255, .3)), 
-        color-stop(100%, rgba(85, 26, 139, .4)));
+    font-size: 0.9rem;
+    background-color: rgba(85, 26, 139, .3);
 }
 
 a {
@@ -66,6 +63,11 @@ h3 {
 ul {
     clear: both;
     margin-top: 0.25rem;
+}
+
+.separator {
+    display: inline-block;
+    margin: 0 0.4rem;
 }
 
 .meta {
