@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-size: 0.95rem;
-    background-color: rgba(85, 26, 139, .3);
+    background-color: rgba(85, 26, 139, .4);
 }
 
 a {
@@ -59,10 +59,14 @@ h2 {
 h3 {
     margin-bottom: 0;
 }
+h3:not(.first) {
+    margin-top: 1rem;
+}
 
 ul {
     clear: both;
     margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
 }
 
 .separator {
