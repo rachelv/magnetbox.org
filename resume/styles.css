@@ -1,13 +1,10 @@
 body {
     font-family: 'Lato', sans-serif;
     font-size: 0.95rem;
-    background-color: rgba(85, 26, 139, .4);
+    background-color: #e4e4e4;
 }
 
 a {
-    color: #8968CD;
-}
-a:hover {
     color: #551A8B;
 }
 
