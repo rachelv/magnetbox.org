@@ -95,8 +95,11 @@ p {
 .title {
     float: left;
     font-weight: bold;
-    margin: .25rem 0;
 }
 .dates {
     float: right;
+}
+
+.title, .dates {
+    margin: .25rem 0;
 }
