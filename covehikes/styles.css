@@ -1,0 +1,16 @@
+body { 
+    background-color: #FFF;
+    padding-top: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-fluid {
+    max-width: 1000px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 80%;
+    margin: 2rem auto;
+}
