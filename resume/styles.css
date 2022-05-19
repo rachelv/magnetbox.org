@@ -54,6 +54,7 @@ a:hover {
 }
 
 .content-container {
+    max-width: 1000px;
     margin: 2rem 0;
     background-color: #fff;
 }
