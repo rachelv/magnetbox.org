@@ -1,4 +1,4 @@
-body { 
+body {
     background-color: #FFF;
     padding-top: 4rem;
     font-family: 'Lato', sans-serif;
@@ -17,6 +17,23 @@ body {
     .content-col {
         padding-left: 3rem;
     }
+}
+
+@media (max-width: 991px) {
+    .info-col {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+}
+@media (min-width: 992px) {
+    .info-col {
+        text-align: left;
+    }
+}
+
+img {
+    border-radius: 9999px;
+    width: 80px;
 }
 
 p.first {
