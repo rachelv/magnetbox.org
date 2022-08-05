@@ -31,7 +31,7 @@ body {
     }
 }
 
-img {
+img.avatar {
     border-radius: 9999px;
     width: 80px;
 }
