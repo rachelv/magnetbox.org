@@ -1,191 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Rachel Vecchitto - Resum&eacute;</title>
+        <title>Rachel Vecchitto - Resum&eacute;</title>
 
-    <link rel="stylesheet" href="../bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="../bootstrap-grid.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+        <link media="screen" rel="stylesheet" href="./styles-dist.css" />
+    </head>
+    <body class="font-lato bg-gradient-to-bl from-gray-200 to-white">
 
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-11 col-lg-10 content-container">
-
+        <div class="container max-w-screen-lg mx-auto my-10 py-6 px-3 sm:px-8 bg-white border border-black">
+            <div class="space-y-4">
                 <h1>Rachel Vecchitto</h1>
-                <div class="contact">
-                    <p>Boulder, CO <span class="separator">&middot;</span> rachel@magnetbox.org</p>
-                </div>
 
-                <h2>Summary</h2>
-                <p>Full-stack engineer with 20 years experience building high-traffic websites. Capable technical leader with a strong product skillset.</p>
+                <p class="space-x-2">
+                    <span>Boulder, CO</span>
+                    <span>&middot;</span>
+                    <span>rachel@magnetbox.org</span>
 
-                <h2>Experience</h2>
+                    <div class="space-y-2">
+                        <h2>Summary</h2>
+                        <p>Full-stack engineer with 20 years experience building high-traffic websites. Capable technical leader with a strong product skillset.</p>
+                    </div>
 
-                <h3 class="first"><a target="_blank" href="https://checkin.cc">Checkin</a></h3>
-                <div class="meta">
-                    <div class="tech">PHP, Laravel, Svelte, AWS</div>
-                </div>
-                <div class="meta">
-                    <div class="title">Head of Engineering</div>
-                    <div class="dates">May 2021 - present</div>
-                </div>
-                <ul>
-                    <li>Building something new.</li>
-                </ul>
+                    <div class="space-y-4">
+                        <h2>Experience</h2>
 
-                <h3><a target="_blank" href="https://www.adventureprojects.net">REI, Advenure Projects</a></h3>
-                <div class="meta">
-                    <div class="tech">PHP, Laravel, Vue, AWS</div>
-                </div>
-                <div class="meta">
-                    <div class="title">Lead Software Engineer</div>
-                    <div class="dates">Feb<span class="hide-xs">ruary</span> 2019 - May 2020</div>
-                </div>
-                <ul>
-                    <li>Acted as the primary point of contact between the larger REI organization and the Adventure Projects team. Made Adventure Projects data available to and discoverable by teams that needed it, established standardized ways to share this data between two separate stacks, ensured Adventure Projects sites met REI's SEO and accessibility guidelines, and generally coordinated the engineering side of all projects involving <a target="_blank" href="https://www.rei.com/">rei.com</a>.</li>
-                    <li>Worked to develop a more collaborative engineering culture as the Adventure Projects team grew to five engineers. Efforts included using PRs for increased team visibility into code changes, holding regular engineering meetings for both free-form topics and architecture reviews, instituting epic owners in Jira to promote code ownership by ICs, and encouraging 10% time for prototyping and experimentation.</li>
-                </ul>
-                <div class="meta">
-                    <div class="title">Senior Software Engineer</div>
-                    <div class="dates">Aug<span class="hide-xs">ust</span> 2015 - Feb<span class="hide-xs">ruary</span> 2019</div>
-                </div>
-                <ul>
-                    <li>With one other web engineer, handled all frontend and backend development, infrastructure, and development tooling for five websites with tens of millions of sessions per year. Significant projects included:</li>
-                    <ul>
-                        <li>Replaced MySQL full text search on all sites with a Solr search engine, resulting in drastically increased search performance and more comprehensive and accurate search results.</li>
-                        <li>Created a mature, timestamp-based sync API to sync data between the web and mobile apps, reducing the time to sync items for users with thousands of data points by an order of magnitude.</li>
-                        <!-- <li>photo perf? re-optimize, header setting across cloudfront and s3 </li> -->
-                    </ul>
-                    <li>Transformed the development process from one that only supported one engineer to one that could support a team, including moving all code to github, provisioning local &amp; staging development environments, creating a continuous deployment process, and setting up monitoring & observability systems.</li>
-                    <li>Guided the transformation of 10+ year old spaghetti code into modern web apps. Chose an MVC framework, rearchitected supporting components as necessary, refactored frontend code into templates, and integrated frontend and backend build systems to create a codebase that other engineers could work on enjoyably.</li>
-                </ul>
+                        <div class="space-y-1">
+                            <h3><a href="">Checkin</a></h3>
+                            <p>PHP, Laravel, Svelte, AWS</p>
+                            <div class="flex justify-between">
+                                <b>Head of Engineering</b>
+                                <div>May 2021 - present</div>
+                            </div>
+                            <ul>
+                                <li>Building something new.</li>
+                            </ul>
+                        </div>
 
-                <h3><a target="_blank" href="https://twitter.com">Twitter</a></h3>
-                <div class="meta">
-                    <div class="tech">Java, Scala, Ruby, Python</div>
-                </div>
-                <div class="meta">
-                    <div class="title">Senior Software Engineer</div>
-                    <div class="dates">Feb<span class="hide-xs">ruary</span> 2014 - Jul<span class="hide-xs">y</span> 2015</div>
-                </div>
-                <ul>
-                    <li>Led a team building a system to send billing &amp; compliance data from new services in Twitter's data center to legacy services in <a target="_blank" href="https://en.wikipedia.org/wiki/Gnip">Gnip's</a> data center. Implemtented a library for consitent message creation, a server to POST messages from Twitter to <a target="_blank" href="https://en.wikipedia.org/wiki/Gnip">Gnip</a>, and a receiving endpoint to deserialize and enqueue messages for Gnip systems.</li>
-                    <li>Designed and developed deploy tools used by all developers to package applications, manage versions, and deploy applications through staging to production.</li>
-                    <li>Developed an API used by partners to batch submit tweet resyndication and compliance events, allowing Twitter to bill appropriately for network impressions and honor user privacy for hundreds of thousands of tweets.</li>
-                </ul>
+                        <div class="space-y-1">
+                            <h3><a href="">REI, Adventure projects</a></h3>
+                            <p>x, y, x</p>
+                            <div class="flex justify-between">
+                                <b>bloop</b>
+                                <div>xxx - yyy</div>
+                            </div>
+                            <ul>
+                                <li>doin a job</li>
+                            </ul>
+                        </div>
 
-                <h3><a target="_blank" href="https://www.etsy.com">Etsy</a></h3>
-                <div class="meta">
-                    <div class="tech">PHP</div>
-                </div>
-                <div class="meta">
-                    <div class="title">Senior Software Engineer</div>
-                    <div class="dates">Aug<span class="hide-xs">ust</span> 2009 - Jan<span class="hide-xs">uary</span> 2014</div>
-                </div>
-                <ul>
-                    <li>Led the migration of about 800k shops from a monolothic Postgres database to MySQL shards, redesigning the schema, t'ing writes, and then t'ing reads to gradually transition to the new database with no downtime.</li>
-                    <li>As part of the original launch of Etsy's shipping services, designed and developed a service to allow uniform programmatic access to multiple shipping provider APIs (USPS, FedEx, etc).</li>
-                    <li>Designed and developed a credit tier system to allow sellers to accrue only a given amount of outstanding fees, and move sellers between credit tiers based on billing history and payments.</li>
-                    <li>Contributed to many critical site components, including checkout, the listing process, listing currency conversion, shop management tools, and mobile APIs.</li>
-                </ul>
+                        <div class="space-y-1">
+                            <h3><a href="">Twitter</a></h3>
+                            <p>x, y, x</p>
+                            <div class="flex justify-between">
+                                <b>bloop</b>
+                                <div>xxx - yyy</div>
+                            </div>
+                            <ul>
+                                <li>doin a job</li>
+                            </ul>
+                        </div>
 
-                <h3><a target="_blank" href="http://justfamily.com">Wee Web</a></h3>
-                <div class="meta">
-                    <div class="tech">Ruby, Rails</div>
-                </div>
-                <div class="meta">
-                    <div class="title">Lead Engineer</div>
-                    <div class="dates">Jun<span class="hide-xs">e</span> 2008 - Jul<span class="hide-xs">y</span> 2009</div>
-                </div>
-                <ul>
-                    <li>Lead developer for Wee Web (since merged with <a target="_blank" href="http://justfamily.com">JustFamily</a>), a website launched by two of the Meetup co-founders that allowed families to privately &amp; easily share photos, videos and stories about their children.</li>
-                    <li>Built all site components from the gound up with one other developer.</li>
-                </ul>
+                        <div class="space-y-1">
+                            <h3><a href="">Etsy</a></h3>
+                            <p>x, y, x</p>
+                            <div class="flex justify-between">
+                                <b>bloop</b>
+                                <div>xxx - yyy</div>
+                            </div>
+                            <ul>
+                                <li>doin a job</li>
+                            </ul>
+                        </div>
 
-                <h3><a target="_blank" href="https://www.nytimes.com">The New York Times</a></h3>
-                <div class="meta">
-                    <div class="tech">PHP, Context (proprietary)</div>
-                </div>
-                <div class="meta">
-                    <div class="title">Search Platform Lead</div>
-                    <div class="dates">Jan<span class="hide-xs">uary</span> 2007 - Jun<span class="hide-xs">e</span> 2008</div>
-                </div>
-                <ul>
-                    <li>Acted as the development lead for moving the article archive out from behind the <a target="_blank" href="http://www.nytimes.com/ref/membercenter/lettertoreaders.html">TimesSelect paywall</a>.</li>
-                    <li>Led the migration of search on NYTimes.com to the Google CSE platform, creating a flexible, scalable, and uniform search experience across all sections of the site.</li>
-                    <li>Managed the development and maintenance of all search-related projects, including article categorization, topic pages and general search enhancements.</li>
-                </ul>
+                        <div class="space-y-1">
+                            <h3><a href="">Wee Web</a></h3>
+                            <p>x, y, x</p>
+                            <div class="flex justify-between">
+                                <b>bloop</b>
+                                <div>xxx - yyy</div>
+                            </div>
+                            <ul>
+                                <li>doin a job</li>
+                            </ul>
+                        </div>
 
-                <h3><a target="_blank" href="https://www.meetup.com">Meetup</a></h3>
-                <div class="meta">
-                    <div class="tech">Java</div>
-                </div>
-                <div class="meta">
-                    <div class="title">Software Engineer</div>
-                    <div class="dates">Nov<span class="hide-xs">ember</span> 2004 - Jan<span class="hide-xs">uary</span> 2007</div>
-                </div>
-                <ul>
-                    <li>Responsible for the development of several major features and components, including:</li>
-                    <ul>
-                        <li>Redesigned the payment process to accomodate a change from premium user accounts to a monthly subscription system.</li>
-                        <li>Built a per-group wiki with change tracking, reversion capabilities, and multiple read/write permission levels.</li>
-                    </ul>
-                    <li>Guided the development of various features through initial concept, implementation and final release, including:</li>
-                    <ul>
-                        <li>Designed and developed a tool to allow groups to easily post ads to Craigslist, leading to over 1,000 clicks to Meetup per day.</li>
-                        <li>Repurposed Meetup's affiliate program to appeal to bloggers and other personal publishers, leading to over 20 new registrations per day.</li>
-                    </ul>
-                </ul>
+                        <div class="space-y-1">
+                            <h3><a href="">The New York Times</a></h3>
+                            <p>x, y, x</p>
+                            <div class="flex justify-between">
+                                <b>bloop</b>
+                                <div>xxx - yyy</div>
+                            </div>
+                            <ul>
+                                <li>doin a job</li>
+                            </ul>
+                        </div>
 
-                <h3>UBS Investment Bank</h3>
-                <div class="meta">
-                    <div class="title">Software Engineer</div>
-                    <div class="dates">Jun<span class="hide-xs">e</span> 2003 - Nov<span class="hide-xs">ember</span> 2004</div>
-                </div>
-                <ul></ul>
+                        <div class="space-y-1">
+                            <h3><a href="">Meetup</a></h3>
+                            <p>x, y, x</p>
+                            <div class="flex justify-between">
+                                <b>bloop</b>
+                                <div>xxx - yyy</div>
+                            </div>
+                            <ul>
+                                <li>doin a job</li>
+                            </ul>
+                        </div>
 
-                <h3>GE Power Systems</h3>
-                <div class="meta">
-                    <div class="title">Software Engineering Intern</div>
-                    <div class="dates">May 2002 - May 2003</div>
-                </div>
-                <ul></ul>
+                        <div class="space-y-1">
+                            <h3>UBS Investment Bank</h3>
+                            <div class="flex justify-between">
+                                <b>Software Engineer</b>
+                                <div>June 2003 - November 2004</div>
+                            </div>
+                        </div>
 
-                <h3>IBM</h3>
-                <div class="meta ">
-                    <div class="title">Software Engineering Intern</div>
-                    <div class="dates">Summer 2001</div>
-                </div>
-                <ul></ul>
+                        <div class="space-y-1">
+                            <h3>GE Power Systems</h3>
+                            <div class="flex justify-between">
+                                <b>Software Engineering Intern</b>
+                                <div>May 2002 - May 2003</div>
+                            </div>
+                        </div>
 
-                <h2>Forever Side Project</h2>
+                        <div class="space-y-1">
+                            <h3>IBM</h3>
+                            <div class="flex justify-between">
+                                <b>Software Engineering Intern</b>
+                                <div>Summer 2001</div>
+                            </div>
+                        </div>
 
-                <h3 class="first"><a target="_blank" href="http://www.slopesquad.com">Slope Squad</a></h3>
-                <div class="meta">
-                    <div class="title">Sole Designer &amp; Engineer</div>
-                    <div class="dates">2012 - present</div>
-                </div>
-                <ul>
-                    <li>Designed and developed a ski day tracking site for passionate skiers that has been used to track over 20,000 ski days.</li>
-                </ul>
+                    </div>
 
-                <h2>Education</h2>
+                    <div class="space-y-3">
+                        <h2>Forever Side Project</h2>
+                        <div class="space-y-1">
+                            <h3><a href="">Slope Squad</a></h3>
+                            <div class="flex justify-between">
+                                <b>Sole Designer &amp; Engineer</b>
+                                <div>2012 - present</div>
+                            </div>
+                            <ul>
+                                <li>Designed and developed a ski day tracking site for avid skiers that has been used to track over 20,000 ski days.</li>
+                            </ul>
+                        </div>
+                    </div>
 
-                <h3 class="first"><a target="_blank" href="https://www.rpi.edu">Rensselaer Polytechnic Institute</a></h3>
-                <div class="meta">
-                    <div class="title">B.S. Comp<span class="hide-xs">uter</span> Sci<span class="hide-xs">ence</span>, Magna Cum Laude</div>
-                    <div class="dates">1999 - 2003</div>
-                </div>
+                    <div class="space-y-3">
+                        <h2>Education</h2>
+                        <div class="space-y-1">
+                            <h3><a href="">Rensselaer Polytechnic Institute</a></h3>
+                            <div class="flex justify-between">
+                                <b>B.S. Computer Science, Magna Cum Laude</b>
+                                <div>1999 - 2003</div>
+                            </div>
+                        </div>
+                    </div>
 
+                </p>
             </div>
         </div>
-    </div>
 
-</body>
+    </body>
 </html>
