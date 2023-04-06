@@ -4,12 +4,18 @@
 
 ul {
     @apply list-disc;
+    @apply space-y-1;
 }
 
 li {
     @apply ml-6;
 }
 
+div.title {
+    @apply flex;
+    @apply justify-between;
+    @apply pt-1;
+}
 
 h1 {
     @apply text-3xl;
@@ -27,5 +33,10 @@ h3 {
 }
 
 a {
-    @apply text-purple-700;
+    @apply text-violet-700;
+}
+
+a:hover {
+    @apply text-violet-900;
+    @apply underline;
 }
