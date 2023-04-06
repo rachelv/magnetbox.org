@@ -618,6 +618,11 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-x {
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -737,12 +742,47 @@ a:hover {
   text-decoration-line: underline;
 }
 
-@media (min-width: 640px) {
-  .sm\:border-x {
-    border-left-width: 1px;
-    border-right-width: 1px;
+@media print {
+  .print\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
+  .print\:hidden {
+    display: none;
+  }
+
+  .print\:border-0 {
+    border-width: 0px;
+  }
+
+  .print\:border-x-0 {
+    border-left-width: 0px;
+    border-right-width: 0px;
+  }
+
+  .print\:border-y-0 {
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+  }
+
+  .print\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
+  .print\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .print\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width: 640px) {
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -754,11 +794,9 @@ a:hover {
     border-left-width: 1px;
     border-right-width: 1px;
   }
-}
 
-@media (min-width: 1024px) {
-  .lg\:border-x {
-    border-left-width: 1px;
-    border-right-width: 1px;
+  .md\:border-x-0 {
+    border-left-width: 0px;
+    border-right-width: 0px;
   }
 }
